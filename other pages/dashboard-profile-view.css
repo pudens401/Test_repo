@@ -1,0 +1,352 @@
+body{                       /*032426  93FF4B*/
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+button{
+    background-color: #1975ff;
+    color: #fff;
+    border: none;
+}
+.d-nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: gray solid 2px;
+    color: #fff;
+}
+.d-logo{
+    color: #1975ff;
+    width: 10vw;
+    align-self: flex-end;
+    font-size: 5vh;
+}
+.d-middle-header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 50%;
+    color: #1975ff;
+}
+.d-middle-header button{
+    height: 50%;
+    align-self: flex-end;
+}
+
+.d-user-info{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 19vw;
+    color: #1975ff;
+    font-weight: 900;
+}
+
+.d-cont{
+    display: flex;
+
+}
+.d-menu{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 2.5vw;
+    color: #1975ff;
+    width: 12vw;
+    height: 100%;
+    border-right: 1px #1975ff solid;
+    /* background-color: forestgreen; */
+}
+.d-menu-item{
+    display: flex;
+    margin:2vh 0px;
+}
+#d-logout{
+    color: red;
+    margin-top:10vh;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+
+#d-main{
+    width: 59.5vw;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; 
+    padding: 0px .1vw; 
+}
+.fast-analytics{
+    color: #1975ff;
+    margin-top: 30px;
+    padding:20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5vw;
+    align-items: baseline;
+    border: 1px #1975ff solid;
+}
+.monthly--analytics{
+    background-color: rgb(214, 214, 214);
+    padding: .5vw;
+}
+.add-blog{
+    color: #1975ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: slateblue; */
+    width: 60%;
+    margin: 5vh auto;
+    border: 1px #1975ff solid;
+}
+#blog-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input,textarea{
+    border: .5px solid #1975ff;
+}
+.fa-image{
+    font-size: 4vh;
+    background-color: aquamarine;
+
+}
+#blog-submit-btn{
+    width: 6vw;
+    margin-right: 0vw;
+    margin-left: auto;
+    margin-top: -4vh;
+}
+
+
+.blog-management{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+    border: 1px #1975ff solid;
+}
+.high-blogs{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    /* background-color: lawngreen; */
+}
+
+.high-cont{
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px #1975ff solid; */
+}
+.high-cont h3{
+    text-align: center;
+    color: #1975ff;
+}
+.high-blog-item{
+    display: flex;
+    justify-content: center;
+    border: 1px #1975ff solid;
+    /* background-color: antiquewhite; */
+}
+.high-img{
+    /* background-color: aqua; */
+    width: 20%;
+    height: 100%;
+}
+.high-img img{
+    width: 100%;
+    height: 100%;
+}
+.high-text{
+    flex: 1;
+    /* background-color: teal; */
+    width: 10vw;
+    height: fit-content;
+}
+.high-icons-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fa-square-arrow-up-right{
+    color: #1975ff;
+}
+.r-blog-manage-icons .fa-square-pen{
+    color: green;
+}
+.high-icons .fa-square-pen{
+    color: green;
+}
+.fa-trash{
+    color: red;
+}
+.fa-thumbs-up,.fa-comments{
+    color: #1975ff;
+}
+.manage-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.stats-icons{
+    
+}
+
+
+
+
+
+
+
+.d-recent-blogs{
+    border: 1px #1975ff solid;
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+.d-recent-blogs h3{
+    text-align: center;
+    color: #1975ff;
+}
+.d-recent-blogs-cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.d-recent-blog-item{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 33vw;
+    overflow-y: hidden;
+    border: 1px #1975ff solid;
+}
+
+.r-blog-stat-icons{
+    padding-left: 1vw;
+}
+.recent-blog-title{
+    margin-top: -3vh;
+    height: 18vh;
+    width: 18vw;
+    display: flex;
+    justify-content:space-between ;
+    flex-direction: column;
+    padding: .5vh 0px 0vh 0px ;
+    /* background-color: rebeccapurple; */
+}
+.r-blog-manage-icons{
+    padding-top: .4vh;
+    height: fit-content;
+    font-size: 1.5vw;
+    /* background-color: chartreuse; */
+}
+.recent-blog-img{
+    width: 10vw;
+    /* background-color: aquamarine; */
+}
+.recent-blog-img img{
+    width: 100%;
+    height: 100%;
+}
+#d-view-more-blogs{
+    width: 8vw;
+    margin-right: auto;
+    margin-left:auto ;
+    margin-top: 2vh;
+    padding: 1vh;
+}
+
+.scrollable{
+    height: 100vh;
+    overflow-y: auto;
+}
+.scrollable::-webkit-scrollbar{
+    display: none;
+}
+.d-sidebar{
+    width:23vw;
+    border: 1px #1975ff solid;
+    padding-top: 2vh;
+}
+
+#sidebar-cont{
+    background-color: skyblue;
+    height: fit-content;
+    height: fit-content;
+    padding-bottom: 10vh;
+}
+
+
+
+.profile-item{
+    margin-top: 1vh;
+    border: 1px #1975ff solid;
+    padding: 0 0 .1vh 0;
+    height: fit-content;
+    padding-bottom: 5vh;
+}
+/* .s-m-head{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+} */
+.p-nav{
+    background-color: #1975ff;
+    width: fit-content;
+    margin-left: 1vh;
+    margin-top: 5px;
+}
+.p-body{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profile-image{
+    width: 20%;
+    height: 18%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: wheat;
+}
+#profile-image img{
+    width: 100%;
+    height: 110%;
+}
+.profile-info{
+    text-align: center;
+}
+#p-label{
+    font-weight: 900;
+}
+.s-m-id{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 90%;
+    margin-right: 0%;
+    margin-left: auto;
+    color: #1975ff;
+}
+.s-m-manage{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aquamarine; */
+    align-self: baseline;
+    width: 80%;
+}
+.s-m-id .fa-envelope-open-text{
+    color: rgb(1, 150, 1);
+}
+.s-m-id .fa-envelope{
+    color: rgb(196, 0, 0);
+}
+.s-m-body{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: auto;
+}
+
+
